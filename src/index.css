@@ -1,0 +1,20 @@
+/* body{background-color: antiquewhite;} */
+html {scroll-behavior: smooth;}
+
+body{font-family:  "Poppins", "Poppins Placeholder", sans-serif; top: 0 !important;}
+
+.navbar-brand{font-size: 25px; width: 100%;}
+/* .navbar.navbar-expand-md {position: absolute; top: 0; width: 100%; background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(10px); z-index: 10; height: 100px !important;} */
+.navbar {top: 0; z-index: 10; height: 100px !important; background: transparent !important;}
+
+.nav-link{font-size: 18px !important;}
+.navbar-collapse{width: 100%; }
+.navbar-collapse ul{width: 100%; display: flex; align-items: center; justify-content: space-between;}
+
+#myVideo{position: absolute !important; top: 0 !important; left: 0 !important;  min-width: 100vw !important; min-height: 100vh !important; object-fit: cover !important}
+.site-index{position: relative; height:100vh;  overflow: hidden;}
+.hero-banner-text{position: absolute;  bottom: -10%; left: 20%; transform: translate(-50%, -50%); color: rgb(0, 0, 0); text-align: center; z-index: 2; padding: 20px; font-size: 50px;}
+#service-button{margin-top: 2rem; display: inline-block; padding: 0.8rem 2rem; border-radius: 0px; text-decoration: none; width: fit-content;}
+.hero-content{position: relative; z-index: 1; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; color: rgb(0, 0, 0);}
+
+.about-us-content{ color: rgb(102, 102, 102); font-size: 16px;}
