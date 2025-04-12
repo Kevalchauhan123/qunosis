@@ -1,6 +1,9 @@
 import React, { useEffect, useRef } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavBar from './Nav';
+import { FaInstagram } from "react-icons/fa";
+import { CiLinkedin } from "react-icons/ci";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import HeaderNavBar from "./Nav";
 import Accordion from 'react-bootstrap/Accordion';
 import video from '../assets/edited.mp4';
 import keval from '../assets/keval.jpg';
@@ -17,7 +20,7 @@ const Index = () => {
     }, []);
     return (
         <>
-            <NavBar />
+            <HeaderNavBar />
             <div>
                 <div className="site-index">
                     <video
@@ -104,7 +107,7 @@ const Index = () => {
                                 </div>
                                 <div className='ms-5'>
                                     <h5 className="fw-bolder">Dishant Dobariya</h5>
-                                    <p style={{ color: 'rgb(237, 108, 72)' }}>Cloud Engineer</p>
+                                    <p style={{ color: 'rgb(237, 108, 72)' }}>DevOps Engineer</p>
                                     <p className='fw-lighter'>Lorem ipsum dolor sit amet consectetur,
                                         adipisicing. Lorem ipsum dolor sit amet consectetur, adipisicing elit. consectetur,
                                         Lorem ipsum dolor
@@ -186,37 +189,72 @@ const Index = () => {
                         </div>
                     </div>
                 </div>
-                {/* <div className="container main-container py-5 text-center">
+                <div className="container py-5 text-center">
                     <div className="text-secondary mb-5">OUR VALUES</div>
                     <Accordion defaultActiveKey="0">
-                        <Accordion.Item eventKey="0">
-                            <Accordion.Header>Accordion Item #1</Accordion.Header>
+                        <Accordion.Item >
+                            <Accordion.Header>Client-Centricity</Accordion.Header>
                             <Accordion.Body>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                culpa qui officia deserunt mollit anim id est laborum.
+                                We prioritize understanding our clients' unique needs and delivering solutions that exceed their expectations.
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="1">
-                            <Accordion.Header>Accordion Item #2</Accordion.Header>
+                            <Accordion.Header>Innovation</Accordion.Header>
                             <Accordion.Body>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                culpa qui officia deserunt mollit anim id est laborum.
+                                We stay at the forefront of technology to provide cutting-edge and effective solutions.
+                            </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="3">
+                            <Accordion.Header>Quality</Accordion.Header>
+                            <Accordion.Body>
+                                We are committed to delivering high-quality work with meticulous attention to detail.
+                            </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="4">
+                            <Accordion.Header>Colobration</Accordion.Header>
+                            <Accordion.Body>
+                                We believe in working closely with our clients as partners to achieve shared success.
                             </Accordion.Body>
                         </Accordion.Item>
                     </Accordion>
-                </div> */}
-            </div>
+                </div>
+                <div className='container card talk p-5'>
+                    <div className='row'>
+                        <div className='col-md-6'>
+                            <h1>Let's Talk</h1>
+                            <p className='fs-4'>We'd love to learn more about you and
+                                what we can design and build together.</p>
+                        <form>
+                            <div className='pt-5'>
+                                <div className="form-group">
+                                    <input type="email" className="form-control" name="email" placeholder="Email Address" required />
+                                </div>
+                            </div>
+                        </form>
+                        </div>
+                    </div>
 
+                </div>
+                <div className="footer">
+                    <div className='container text-light p-5'>
+                        <h1>Our team of experts is ready to discuss your needs and tailor a solution that works for you.</h1>
+                    </div>
+                    <div className='container d-flex align-items-center justify-content-between'>
+                        <div className='icons text-light'>
+                            <p className=' text-secondary'><CiLinkedin fontSize="1.3em" className='me-2' />LinkedIn</p>
+                            <p className=' text-secondary'><FaInstagram fontSize="1.2em" className='me-2' />Twitter</p>
+                            <p className=' text-secondary'><FaSquareXTwitter fontSize="1.1em" className='me-2' />Instagram</p>
+                        </div>
+                        <div>
+                            <p className='fw-medium' style={{ color: 'rgb(237, 108, 72)', textDecoration:'underline'}}>Join Our Commnity</p>
+                            <p className='fw-light text-secondary'>Share ideas, collaborate, </p>
+                            <p className='fw-light text-secondary'>and grow together in a supportive and engaging environment.</p>
+                        </div>
+                    </div>
+                    <div className='container bordered border-bottom'></div>
+                    <div className='py-5 text-center' style={{ color: 'rgb(237, 108, 72)' }}>© 2025 Qunosis by Keval. Powered by Qunosis. All rights reserved.</div>
+                </div>
+            </div>
         </>
     );
 };

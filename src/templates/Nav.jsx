@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Nav } from 'react-bootstrap';
 
-const NavBar = () => {
+const HeaderNavBar = () => {
     return (
         <>
             <Navbar
@@ -34,4 +34,4 @@ const NavBar = () => {
     );
 };
 
-export default NavBar;
+export default HeaderNavBar;
