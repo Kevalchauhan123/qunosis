@@ -22,11 +22,11 @@ const HeaderNavBar = () => {
                     <Navbar.Brand href="#home">Qunosis</Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="d-flex align-items-center justify-content-between">
-                        <Nav.Link href="#home">About</Nav.Link>
-                        <Nav.Link href="#home">Services</Nav.Link>
-                        <Nav.Link href="#home">Why Us?</Nav.Link>
-                        <Nav.Link href="#home">Story</Nav.Link>
-                        <Nav.Link href="#home">Contact Us?</Nav.Link>
+                        <Nav.Link href="about">About</Nav.Link>
+                        <Nav.Link href="#services">Services</Nav.Link>
+                        <Nav.Link href="#why-us">Why Us?</Nav.Link>
+                        <Nav.Link href="#story">Story</Nav.Link>
+                        <Nav.Link href="#contact-us">Contact Us?</Nav.Link>
                     </Navbar.Collapse>
                 </div>
             </Navbar>

@@ -6,6 +6,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import HeaderNavBar from "./Nav";
 import Accordion from 'react-bootstrap/Accordion';
 import video from '../assets/edited.mp4';
+// import service from '../assets/service.mp4';
 import keval from '../assets/keval.jpg';
 import anurag from '../assets/anurag.jpeg';
 import dishant from '../assets/dishant.jpeg';
@@ -70,6 +71,68 @@ const Index = () => {
                         <p>Founded by three passionate IT professionals, <span className='fw-bold' style={{ color: 'rgb(237, 108, 72)', textDecoration: 'underline' }}>QUNOSIS</span> is dedicated to providing high-quality, reliable, and scalable IT services. We combine technical expertise with a client-centric approach to deliver solutions that drive real business value.</p>
                     </div>
                 </div>
+
+                <div className="position-relative overflow-hidden">
+                    {/* Background Video
+                    <video
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        className="position-absolute top-0 start-0 w-100 h-100 object-fit-cover"
+                        style={{ zIndex: -1 }}
+                    >
+                        <source src={service} type="video/mp4" />
+                    </video> */}
+                    <div className="service-container py-5 px-4 text-center">
+                        <div className="fs-2">SERVICES</div>
+                        <div className='container p-4'>
+                            <div class="row g-4">
+                                <div class="col-md-4">
+                                    <div className='card service-card py-5'>
+                                        <div className='fw-bolder mb-5 mb-5' style={{ color: 'rgb(102, 102, 102)' }}>Custom Software Development</div>
+                                        <div className='text-secondary px-3'>Scalable and secure software tailored to your business processes.</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div className='card service-card py-5'>
+                                        <div className='fw-bolder mb-5 mb-5' style={{ color: 'rgb(102, 102, 102)' }}>Web & Mobile App Development</div>
+                                        <div className='text-secondary px-3'>Scalable and secure software tailored to your business processes.</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div className='card service-card py-5'>
+                                        <div className='fw-bolder mb-5 mb-5' style={{ color: 'rgb(102, 102, 102)' }}>UI/UX Design</div>
+                                        <div className='text-secondary px-3'>Scalable and secure software tailored to your business processes.</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div className='card service-card py-5'>
+                                        <div className='fw-bolder mb-5 mb-5' style={{ color: 'rgb(102, 102, 102)' }}>Cloud Services</div>
+                                        <div className='text-secondary px-3'>Scalable and secure software tailored to your business processes.</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div className='card service-card py-5'>
+                                        <div className='fw-bolder mb-5 mb-5' style={{ color: 'rgb(102, 102, 102)' }}>E-commerce Solutions</div>
+                                        <div className='text-secondary px-3'>Scalable and secure software tailored to your business processes.</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div className='card service-card py-5'>
+                                        <div className='fw-bolder mb-5 mb-5' style={{ color: 'rgb(102, 102, 102)' }}>IT Consulting & Support</div>
+                                        <div className='text-secondary px-3'>Scalable and secure software tailored to your business processes.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='mt-5'>
+                                <div className='btn btn-light btn-service w-auto px-5 py-2'>
+                                    Go to Services
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className='team'>
                     <div className='container main-container pt-5 text-center'>
                         <p className='fs-5' style={{ color: 'rgb(237, 108, 72)' }}>MEET OUR TEAM</p>
@@ -80,10 +143,9 @@ const Index = () => {
                         <div className="scroll-track">
                             <div className="card team-card d-flex align-items-center justify-content-between">
                                 <div>
-                                    <img src={keval} width="200" height="200" className='rounded-circle' style={{
+                                    <img src={keval} width="200" height="200"  style={{
                                         height: "200px",
                                         width: "200px",
-                                        borderRadius: "50%",
                                         objectFit: "cover"
                                     }} />
                                 </div>
@@ -98,10 +160,9 @@ const Index = () => {
                             </div>
                             <div className="card team-card d-flex align-items-center justify-content-between">
                                 <div>
-                                    <img src={dishant} width="200" height="200" className='rounded-circle' style={{
+                                    <img src={dishant} width="200" height="200"  style={{
                                         height: "200px",
                                         width: "200px",
-                                        borderRadius: "50%",
                                         objectFit: "cover"
                                     }} />
                                 </div>
@@ -116,10 +177,9 @@ const Index = () => {
                             </div>
                             <div className="card team-card d-flex align-items-center justify-content-between">
                                 <div>
-                                    <img src={anurag} width="200" height="200" className='rounded-circle' style={{
+                                    <img src={anurag} width="200" height="200"  style={{
                                         height: "200px",
                                         width: "200px",
-                                        borderRadius: "50%",
                                         objectFit: "cover"
                                     }} />
                                 </div>
@@ -134,10 +194,9 @@ const Index = () => {
                             </div>
                             <div className="card team-card d-flex align-items-center justify-content-between">
                                 <div>
-                                    <img src={keval} width="200" height="200" className='rounded-circle' style={{
+                                    <img src={keval} width="200" height="200"  style={{
                                         height: "200px",
                                         width: "200px",
-                                        borderRadius: "50%",
                                         objectFit: "cover"
                                     }} />
                                 </div>
@@ -152,10 +211,9 @@ const Index = () => {
                             </div>
                             <div className="card team-card d-flex align-items-center justify-content-between">
                                 <div>
-                                    <img src={dishant} width="200" height="200" className='rounded-circle' style={{
+                                    <img src={dishant} width="200" height="200"  style={{
                                         height: "200px",
                                         width: "200px",
-                                        borderRadius: "50%",
                                         objectFit: "cover"
                                     }} />
                                 </div>
@@ -170,10 +228,9 @@ const Index = () => {
                             </div>
                             <div className="card team-card d-flex align-items-center justify-content-between">
                                 <div>
-                                    <img src={anurag} width="200" height="200" className='rounded-circle' style={{
+                                    <img src={anurag} width="200" height="200"  style={{
                                         height: "200px",
                                         width: "200px",
-                                        borderRadius: "50%",
                                         objectFit: "cover"
                                     }} />
                                 </div>
@@ -190,7 +247,7 @@ const Index = () => {
                     </div>
                 </div>
                 <div className="container py-5 text-center">
-                    <div className="text-secondary mb-5">OUR VALUES</div>
+                    <div className="text-secondary mb-5 fs-3">OUR VALUES</div>
                     <Accordion defaultActiveKey="0">
                         <Accordion.Item >
                             <Accordion.Header>Client-Centricity</Accordion.Header>
@@ -224,16 +281,15 @@ const Index = () => {
                             <h1>Let's Talk</h1>
                             <p className='fs-4'>We'd love to learn more about you and
                                 what we can design and build together.</p>
-                        <form>
-                            <div className='pt-5'>
-                                <div className="form-group">
-                                    <input type="email" className="form-control" name="email" placeholder="Email Address" required />
+                            <form>
+                                <div className='pt-5'>
+                                    <div className="form-group">
+                                        <input type="email" className="form-control" name="email" placeholder="Email Address" required />
+                                    </div>
                                 </div>
-                            </div>
-                        </form>
+                            </form>
                         </div>
                     </div>
-
                 </div>
                 <div className="footer">
                     <div className='container text-light p-5'>
@@ -246,7 +302,7 @@ const Index = () => {
                             <p className=' text-secondary'><FaSquareXTwitter fontSize="1.1em" className='me-2' />Instagram</p>
                         </div>
                         <div>
-                            <p className='fw-medium' style={{ color: 'rgb(237, 108, 72)', textDecoration:'underline'}}>Join Our Commnity</p>
+                            <p className='fw-medium' style={{ color: 'rgb(237, 108, 72)', textDecoration: 'underline' }}>Join Our Commnity</p>
                             <p className='fw-light text-secondary'>Share ideas, collaborate, </p>
                             <p className='fw-light text-secondary'>and grow together in a supportive and engaging environment.</p>
                         </div>
@@ -254,7 +310,8 @@ const Index = () => {
                     <div className='container bordered border-bottom'></div>
                     <div className='py-5 text-center' style={{ color: 'rgb(237, 108, 72)' }}>© 2025 Qunosis by Keval. Powered by Qunosis. All rights reserved.</div>
                 </div>
-            </div>
+            </div >
+
         </>
     );
 };
