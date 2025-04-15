@@ -4,6 +4,9 @@ import team from '../assets/team.jpg';
 import keval from '../assets/keval.jpg';
 import anurag from '../assets/anurag.jpeg';
 import dishant from '../assets/dishant.jpeg';
+import { RxExternalLink } from "react-icons/rx";
+import { AiOutlineLink } from "react-icons/ai";
+
 import Footer from './Footer';
 
 const Team = () => {
@@ -82,9 +85,9 @@ const Team = () => {
                             <ul>
                                 <li style={{ color: ' rgb(89, 117, 240)', fontSize: '30px' }}>Keval Chauhan</li>
                                 <div>
-                                    <a style={{ color: ' rgb(255, 0, 0)' }} href="mailto::mail@kevalchauhan.com">mail@kevalchauhan.com</a>
+                                    <a style={{ color: ' rgb(255, 0, 0)' }} href="mailto::mail@kevalchauhan.com">mail@kevalchauhan.com<RxExternalLink fontSize="1em" className='ms-2' /></a>
                                 </div>
-                                <a style={{ color: ' rgb(255, 0, 0)' }} href="www.kevalchauhan.com">www.kevalchauhan.com</a>
+                                <a style={{ color: ' rgb(255, 0, 0)' }} href="www.kevalchauhan.com">www.kevalchauhan.com<AiOutlineLink fontSize="1.2em" className='ms-2' /></a>
                             </ul>
                             <p>
                                 <ul>
@@ -118,7 +121,7 @@ const Team = () => {
                         <div className='ms-md-5 my-md-5'>
                             <ul>
                                 <li style={{ color: ' rgb(89, 117, 240)', fontSize: '30px' }}>Dishant Dobariya</li>
-                                <a style={{ color: ' rgb(255, 0, 0)' }} href="mailto:dobariyadishant@gmail.com">dobariyadishant@gmail.com</a>
+                                <a style={{ color: ' rgb(255, 0, 0)' }} href="mailto:dobariyadishant@gmail.com">dobariyadishant@gmail.com<RxExternalLink fontSize="1em" className='ms-2' /></a>
                             </ul>
                             <p>
                                 <ul>
@@ -151,7 +154,7 @@ const Team = () => {
                         <div className='ms-md-5 my-md-5'>
                             <ul>
                                 <li style={{ color: ' rgb(89, 117, 240)', fontSize: '30px' }}>Anurag Garsondiya</li>
-                                <a style={{ color: ' rgb(255, 0, 0)' }} href="mailto::anuraggarsondiya@gmail.com">anuraggarsondiya@gmail.com</a>
+                                <a style={{ color: ' rgb(255, 0, 0)' }} href="mailto::anuraggarsondiya@gmail.com">anuraggarsondiya@gmail.com<RxExternalLink fontSize="1em" className='ms-2' /></a>
                             </ul>
                             <p>
                                 <ul>
