@@ -154,16 +154,22 @@ const Team = () => {
                         <div className='ms-md-5 my-md-5'>
                             <ul>
                                 <li style={{ color: ' rgb(89, 117, 240)', fontSize: '30px' }}>Anurag Garsondiya</li>
-                                <a style={{ color: ' rgb(255, 0, 0)' }} href="mailto::anuraggarsondiya@gmail.com">anuraggarsondiya@gmail.com<RxExternalLink fontSize="1em" className='ms-2' /></a>
+                                <a style={{ color: ' rgb(255, 0, 0)' }}  href="mailto:anuraggarsondiya1904@gmail.com">anuraggarsondiya1904@gmail.com<RxExternalLink fontSize="1em" className='ms-2' /></a>
+
                             </ul>
                             <p>
                                 <ul>
-                                    I am Anurag Garsondiya, a Software Engineer based in Gujarat, India. I have a passion for building performant, scalable user interfaces. I have proficiency in technologies like React.js, Node.js, Php, Yii2, and Java. I have B.Tech degree in Computer Science and Engineering from LJ University Ahmedabad, and I am currently working as a Web Developer.
+                                    I am Anurag Garsondiya, a Web Developer based in Gujarat, India. I have professional experience in PHP, Node.js, and React.js, with a passion for building scalable, high-performance web applications. I hold a B.Tech degree in Computer Science and Engineering from LJ University, Ahmedabad, and I am currently working as a Web Developer.
                                 </ul>
                             </p>
                             <p>
                                 <ul>
-                                    I’m a passionate and driven individual who believes in continuous learning and innovation. I enjoy exploring new ideas, solving problems, and creating meaningful experiences through technology and creativity.
+                                    My vision is to craft digital solutions that not only solve problems but also inspire innovation and growth. I aim to bring logic and creativity together to shape meaningful digital experiences that stand the test of time.
+                                </ul>
+                            </p>
+                            <p>
+                                <ul>
+                                    My mission is to use technology as a tool to create impact-driven solutions—combining strong engineering principles with forward-thinking design. I strive for continuous learning, collaboration, and excellence in everything I build.
                                 </ul>
                             </p>
                             <p>
@@ -171,7 +177,7 @@ const Team = () => {
                                     Beyond my work, I have a deep appreciation for art, culture, and self-expression. I love discovering new perspectives, whether through books, travel, or engaging conversations. I believe that every experience shapes us, and I always seek opportunities that challenge me to grow.
                                 </ul>
                             </p>
-
+                           
                         </div>
                     </div>
                 </div>
