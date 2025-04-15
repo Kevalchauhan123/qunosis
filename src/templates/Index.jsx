@@ -64,11 +64,11 @@ const Index = () => {
                         </p>
                     </div>
                 </div>
-                <div className="main-container py-5 text-center">
+                <div className="main-container py-md-5 text-center">
                     <div className='container'>
                         <div className="text-secondary">ABOUT US</div>
                         <div className="mt-5 fs-1"> <span className='text-secondary'>Who we are </span> our Story and Mission</div>
-                        <div className="row mt-5 about-us-content px-5" style={{ letterSpacing: '1px' }}>
+                        <div className="row mt-5 about-us-content px-md-5" style={{ letterSpacing: '1px' }}>
                             <p>Founded by three passionate IT professionals, <span className='fw-bold' style={{ color: 'rgb(89, 117, 240)', textDecoration: 'underline' }}>QUNOSIS</span> is dedicated to providing high-quality, reliable, and scalable IT services. We combine technical expertise with a client-centric approach to deliver solutions that drive real business value.</p>
                         </div>
                     </div>
@@ -173,7 +173,11 @@ const Index = () => {
                         <p className='fs-1'>Experts Behind Your Success</p>
                         <p className='fw-lighter' style={{ fontSize: '18px', letterSpacing: '1px' }}>Our team is composed of experienced professionals who are passionate about driving digital transformation and innovation. Each member brings unique skills and expertise, working together to deliver exceptional results for our clients</p>
                     </div>
-                    <div className="scroll-wrapper p-5">
+                    <div className='d-md-none d-flex justify-content-center'>
+                        <div className='btn btn-primary my-5 px-5'> Go to Team </div>
+
+                    </div>
+                    <div className="scroll-wrapper d-md-block d-none p-5">
                         <div className="scroll-track">
                             <div className="card team-card d-flex align-items-center justify-content-between">
                                 <div>

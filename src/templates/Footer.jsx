@@ -7,10 +7,10 @@ const Footer = () => {
     return (
         <>
             <div className="footer">
-                <div className='container text-light p-5'>
+                <div className='container text-light p-md-5'>
                     <h1>Our team of experts is ready to discuss your needs and tailor a solution that works for you.</h1>
                 </div>
-                <div className='container d-flex align-items-center justify-content-between'>
+                <div className='container d-md-flex align-items-center justify-content-between'>
                     <div className='icons text-light'>
                         <p className=' text-secondary'><CiLinkedin fontSize="1.3em" className='me-2' />LinkedIn</p>
                         <p className=' text-secondary'><FaInstagram fontSize="1.2em" className='me-2' />Twitter</p>

@@ -3,9 +3,10 @@ html {scroll-behavior: smooth;}
 
 body{font-family:  "Poppins", "Poppins Placeholder", sans-serif; top: 0 !important;}
 .navbar-brand{font-size: 25px; width: 100%; color: rgb(42, 76, 227) !important;}
-.navbar {top: 0; z-index: 10; height: 100px !important; color: rgb(51, 111, 251) !important; background-color: transparent !important; transition: background-color 0.3s ease !important;}
-.navbar.scrolled {background-color: white !important; }
+.navbar {top: 0; z-index: 10; height: 100px !important; color: rgb(51, 111, 251) !important; background-color: white !important; transition: background-color 0.3s ease !important;}
 
+.about-us-title{position: sticky !important; top: 100px !important;  font-size: 10vw !important;}
+.text-secondary.h3{font-size: 100px !important;}
 .nav-link {font-size: 18px !important; position: relative; color: rgb(89, 117, 240) !important; text-decoration: none; padding-bottom: 4px; transition: color 0.3s ease;}
 .nav-link::after {content: ''; position: absolute; left: 0; bottom: 0; width: 0; height: 2px; background-color: rgb(42, 76, 227); transition: width 0.3s ease;}
 .nav-link:hover { color: rgb(42, 76, 227) !important;}
@@ -82,3 +83,8 @@ body{font-family:  "Poppins", "Poppins Placeholder", sans-serif; top: 0 !importa
 .about-us-col{padding-right: 0px !important}
 .about{background-color: rgb(102, 102, 102);}
 .masonry .card:hover{ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;}
+
+@media only screen and (max-width: 600px) {
+  .main-container{padding-right: 0rem !important; padding-left: 0rem !important; background-color: rgb(230, 230, 230) !important;}
+  .text-secondary.h3{font-size: 20vw !important;}
+}

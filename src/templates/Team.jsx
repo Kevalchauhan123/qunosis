@@ -14,19 +14,19 @@ const Team = () => {
         <>
             <HeaderNavBar />
 
-            <div className='container my-5 pt-5'>
+            <div className='container my-md-5 pt-md-5'>
                 <div className='row'>
                     <div className='col-12 col-md-4 about-us-col'>
-                        <div style={{ position: 'sticky', top: '100px' }}>
-                            <p className='text-secondary h3' style={{ fontSize: '100px', borderBottom: '1px solid black' }}>
+                        <div className='about-us-title'>
+                            <p className='text-secondary h3' style={{ borderBottom: '1px solid black' }}>
                                 Our Team
                             </p>
                         </div>
                     </div>
                     <div className='col-12 col-md-7' style={{ borderLeft: '1px solid black' }}>
-                        <div className='ms-5'>
+                        <div className='ms-md-5'>
                             <div>
-                                <img src={team} height="450" width="100%" style={{
+                                <img src={team} height="50%" width="100%" style={{
                                 }} />
                             </div>
                             <p className='text-secondary'>
@@ -72,8 +72,8 @@ const Team = () => {
                 </div>
                 <div className='row'>
                     <div className='col-12 col-md-4 about-us-col'>
-                        <div style={{ position: 'sticky', top: '100px' }}>
-                            <p className='text-secondary h3' style={{ fontSize: '100px', borderBottom: '1px solid black' }}>
+                        <div className='about-us-title'>
+                            <p className='text-secondary h3' style={{borderBottom: '1px solid black' }}>
                                 Team Members
                             </p>
                         </div>
@@ -82,7 +82,7 @@ const Team = () => {
                 </div>
                 <div className='row'>
                     <div className='col-12 col-md-4 about-us-col'>
-                        <div style={{ position: 'sticky', top: '100px' }}>
+                        <div className='about-us-title'>
                             <div className='pe-2 my-5'>
                                 <img src={keval} height="500" width="100%" style={{
                                 }} />
@@ -119,7 +119,7 @@ const Team = () => {
 
                 <div className='row'>
                     <div className='col-12 col-md-4 about-us-col'>
-                        <div style={{ position: 'sticky', top: '100px' }}>
+                        <div className='about-us-title'>
                             <div className='pe-2 my-5'>
                                 <img src={dishant} height="500" width="100%" style={{
                                 }} />
@@ -152,7 +152,7 @@ const Team = () => {
                 </div>
                 <div className='row'>
                     <div className='col-12 col-md-4 about-us-col'>
-                        <div style={{ position: 'sticky', top: '100px' }}>
+                        <div className='about-us-title'>
                             <div className='pe-2 my-5'>
                                 <img src={anurag} height="450" width="100%" style={{
                                 }} />
