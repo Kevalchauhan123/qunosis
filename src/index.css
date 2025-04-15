@@ -83,6 +83,7 @@ body{font-family:  "Poppins", "Poppins Placeholder", sans-serif; top: 0 !importa
 .about-us-col{padding-right: 0px !important}
 .about{background-color: rgb(102, 102, 102);}
 .masonry .card:hover{ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;}
+.service-card:hover{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;}
 
 @media only screen and (max-width: 600px) {
   .main-container{padding-right: 0rem !important; padding-left: 0rem !important; background-color: rgb(230, 230, 230) !important;}

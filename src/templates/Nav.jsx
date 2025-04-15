@@ -23,7 +23,7 @@ const HeaderNavBar = () => {
       >
         <div className="container d-flex justify-content-between align-items-center">
           <div className='d-flex d-md-block align-items-center justify-content-between w-100'>
-            <Navbar.Brand href="#home">Qunosis</Navbar.Brand>
+            <Navbar.Brand href="/">Qunosis</Navbar.Brand>
             <Button
               variant="link"
               className="d-block d-lg-none"
@@ -41,7 +41,6 @@ const HeaderNavBar = () => {
           </Nav>
         </div>
       </Navbar>
-
       {/* Offcanvas for Mobile */}
       <Offcanvas
         show={showOffcanvas}
