@@ -81,3 +81,4 @@ body{font-family:  "Poppins", "Poppins Placeholder", sans-serif; top: 0 !importa
 /* .industries{background-color: rgb(198, 198, 198);} */
 .about-us-col{padding-right: 0px !important}
 .about{background-color: rgb(102, 102, 102);}
+.masonry .card:hover{ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;}
