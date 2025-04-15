@@ -78,9 +78,13 @@ const Team = () => {
                         </div>
                     </div>
                     <div className='col-12 col-md-7' style={{ borderLeft: '1px solid black' }}>
-                        <div className='ms-5 my-5'>
+                        <div className='ms-md-5 my-md-5'>
                             <ul>
                                 <li style={{ color: ' rgb(89, 117, 240)', fontSize: '30px' }}>Keval Chauhan</li>
+                                <div>
+                                    <a style={{ color: ' rgb(255, 0, 0)' }} href="mailto::mail@kevalchauhan.com">mail@kevalchauhan.com</a>
+                                </div>
+                                <a style={{ color: ' rgb(255, 0, 0)' }} href="www.kevalchauhan.com">www.kevalchauhan.com</a>
                             </ul>
                             <p>
                                 <ul>
@@ -97,7 +101,6 @@ const Team = () => {
                                     Beyond my work, I have a deep appreciation for art, culture, and self-expression. I love discovering new perspectives, whether through books, travel, or engaging conversations. I believe that every experience shapes us, and I always seek opportunities that challenge me to grow.
                                 </ul>
                             </p>
-                            <p><ul><a href="mail:mail@kevalchauhan.com">mail@kevalchauhan.com</a></ul></p>
                         </div>
                     </div>
                 </div>
@@ -112,27 +115,26 @@ const Team = () => {
                         </div>
                     </div>
                     <div className='col-12 col-md-7' style={{ borderLeft: '1px solid black' }}>
-                        <div className='ms-5 my-5'>
+                        <div className='ms-md-5 my-md-5'>
                             <ul>
                                 <li style={{ color: ' rgb(89, 117, 240)', fontSize: '30px' }}>Dishant Dobariya</li>
+                                <a style={{ color: ' rgb(255, 0, 0)' }} href="mailto:dobariyadishant@gmail.com">dobariyadishant@gmail.com</a>
                             </ul>
                             <p>
                                 <ul>
-                                    I am Dishant Dobariya, a Software Engineer based in Gujarat, India. I have a passion for building performant, scalable user interfaces. I have proficiency in technologies like React.js, Node.js, Php, Yii2, and Java. I have B.Tech degree in Computer Science and Engineering from LJ University Ahmedabad, and I am currently working as a Web Developer.
+                                    My name is Dishant Dobariya, and I’m a DevOps Engineer based in Gujarat, India. I’m passionate about building reliable, automated, and scalable infrastructure. My technical expertise spans CI/CD pipelines, containerization, cloud platforms, and monitoring tools. I work with technologies like Docker, Kubernetes, Jenkins, GitLab CI/CD, Terraform, and Azure. I currently serve as a DevOps Engineer at Apex Soft Tech Software Solution.
                                 </ul>
                             </p>
                             <p>
                                 <ul>
-                                    I’m a passionate and driven individual who believes in continuous learning and innovation. I enjoy exploring new ideas, solving problems, and creating meaningful experiences through technology and creativity.
+                                    I’m a curious and driven individual who thrives on continuous learning and innovation. I enjoy automating manual processes, optimizing systems for performance and availability, and collaborating across teams to streamline software delivery.
                                 </ul>
                             </p>
                             <p>
                                 <ul>
-                                    Beyond my work, I have a deep appreciation for art, culture, and self-expression. I love discovering new perspectives, whether through books, travel, or engaging conversations. I believe that every experience shapes us, and I always seek opportunities that challenge me to grow.
+                                    Outside of work, I have a deep appreciation for art, culture, and creative expression. I love discovering new perspectives through books, travel, and meaningful conversations. I believe each challenge helps shape my growth, and I’m always on the lookout for opportunities that push me to become a better engineer and human being.
                                 </ul>
                             </p>
-                            <p><ul><a href="mail:dishantdobariya@gmail.com">dishantdobariya@gmail.com</a></ul></p>
-
                         </div>
                     </div>
                 </div>
@@ -146,9 +148,10 @@ const Team = () => {
                         </div>
                     </div>
                     <div className='col-12 col-md-7' style={{ borderLeft: '1px solid black' }}>
-                        <div className='ms-5 my-5'>
+                        <div className='ms-md-5 my-md-5'>
                             <ul>
                                 <li style={{ color: ' rgb(89, 117, 240)', fontSize: '30px' }}>Anurag Garsondiya</li>
+                                <a style={{ color: ' rgb(255, 0, 0)' }} href="mailto::anuraggarsondiya@gmail.com">anuraggarsondiya@gmail.com</a>
                             </ul>
                             <p>
                                 <ul>
@@ -165,7 +168,6 @@ const Team = () => {
                                     Beyond my work, I have a deep appreciation for art, culture, and self-expression. I love discovering new perspectives, whether through books, travel, or engaging conversations. I believe that every experience shapes us, and I always seek opportunities that challenge me to grow.
                                 </ul>
                             </p>
-                            <p><ul><a href="mail:anuraggarsondiya@gmail.com">anuraggarsondiya@gmail.com</a></ul></p>
 
                         </div>
                     </div>
