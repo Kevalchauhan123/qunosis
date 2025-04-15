@@ -70,7 +70,16 @@ const Team = () => {
                         </div>
                     </div>
                 </div>
-
+                <div className='row'>
+                    <div className='col-12 col-md-4 about-us-col'>
+                        <div style={{ position: 'sticky', top: '100px' }}>
+                            <p className='text-secondary h3' style={{ fontSize: '100px', borderBottom: '1px solid black' }}>
+                                Team Members
+                            </p>
+                        </div>
+                    </div>
+                    <div className='col-12 col-md-7' style={{ borderLeft: '1px solid black' }}></div>
+                </div>
                 <div className='row'>
                     <div className='col-12 col-md-4 about-us-col'>
                         <div style={{ position: 'sticky', top: '100px' }}>
@@ -154,7 +163,7 @@ const Team = () => {
                         <div className='ms-md-5 my-md-5'>
                             <ul>
                                 <li style={{ color: ' rgb(89, 117, 240)', fontSize: '30px' }}>Anurag Garsondiya</li>
-                                <a style={{ color: ' rgb(255, 0, 0)' }}  href="mailto:anuraggarsondiya1904@gmail.com">anuraggarsondiya1904@gmail.com<RxExternalLink fontSize="1em" className='ms-2' /></a>
+                                <a style={{ color: ' rgb(255, 0, 0)' }} href="mailto:anuraggarsondiya1904@gmail.com">anuraggarsondiya1904@gmail.com<RxExternalLink fontSize="1em" className='ms-2' /></a>
 
                             </ul>
                             <p>
@@ -177,7 +186,7 @@ const Team = () => {
                                     Beyond my work, I have a deep appreciation for art, culture, and self-expression. I love discovering new perspectives, whether through books, travel, or engaging conversations. I believe that every experience shapes us, and I always seek opportunities that challenge me to grow.
                                 </ul>
                             </p>
-                           
+
                         </div>
                     </div>
                 </div>

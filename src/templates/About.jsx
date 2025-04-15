@@ -108,7 +108,7 @@ const About = () => {
                     <div className='col-12 col-md-7' style={{ borderLeft: '1px solid black' }}>
                         <div className='ms-5'>
                             <div>
-                                <img src={mission} height="550" width="100%" style={{
+                                <img src={mission} height="400" width="100%" style={{
                                 }} />
                             </div>
                             <p className=''>
