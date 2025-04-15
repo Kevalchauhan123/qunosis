@@ -1,13 +1,14 @@
 import React from 'react';
 import HeaderNavBar from './Nav';
 import about from '../assets/aboutUs.jpg';
+import Footer from './Footer';
 
 const About = () => {
     return (
         <>
             <HeaderNavBar />
 
-            <div className='container mt-5 pt-5'>
+            <div className='container my-5 pt-5'>
                 <div className='row'>
                     <div className='col-12 col-md-4 about-us-col'>
                         <div style={{ position: 'sticky', top: '100px' }}>
@@ -90,13 +91,10 @@ const About = () => {
                                 At Qunosis, we are committed to delivering not just services, but solutions that transform your business. We work with you every step of the way to ensure your success in the digital age.
                             </p>
                         </div>
-
                     </div>
-
-
                 </div>
-
-            </div >
+            </div>
+            < Footer/>            
         </>
     );
 };
