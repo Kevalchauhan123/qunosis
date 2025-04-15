@@ -1,17 +1,32 @@
 import React from 'react';
+import { useEffect, useState } from 'react';
 // import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Nav } from 'react-bootstrap';
 
 const HeaderNavBar = () => {
+    const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 0);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
     return (
         <>
             <Navbar
                 expand="lg"
+                className={scrolled ? 'navbar scrolled' : ''}
                 style={{
-                    backgroundColor: 'transparent',
-                    position: 'absolute',
+                    position: 'sticky',
                     top: 0,
                     left: 0,
                     width: '100%',

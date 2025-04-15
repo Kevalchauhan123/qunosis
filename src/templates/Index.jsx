@@ -5,11 +5,17 @@ import { CiLinkedin } from "react-icons/ci";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import HeaderNavBar from "./Nav";
 import Accordion from 'react-bootstrap/Accordion';
-import video from '../assets/edited.mp4';
+import video from '../assets/main.mp4';
 // import service from '../assets/service.mp4';
 import keval from '../assets/keval.jpg';
 import anurag from '../assets/anurag.jpeg';
 import dishant from '../assets/dishant.jpeg';
+import development from '../assets/development.png';
+import webdevelopment from '../assets/web development.png';
+import cloud from '../assets/cloud.png';
+import uiux from '../assets/uiux.png';
+import ecomm from '../assets/ecomm.png';
+import support from '../assets/support.png';
 
 const Index = () => {
     const videoRef = useRef(null);
@@ -44,7 +50,7 @@ const Index = () => {
                         }} >
                         <source src={video} type="video/mp4" />
                     </video>
-                    <div className="container hero-content">
+                    <div className="container hero-content text-dark">
                         <h1 style={{
                             fontSize: '3rem',
                             fontWeight: '600',
@@ -58,17 +64,15 @@ const Index = () => {
                         }}>
                             Your Trusted Partner for Web Development, Cloud and other IT Services.
                         </p>
-                        <a href="#services" id="service-button" className="btn btn-primary px-5">
-                            Our services
-                        </a>
-
                     </div>
                 </div>
-                <div className="container main-container py-5 text-center">
-                    <div className="text-secondary">ABOUT US</div>
-                    <div className="mt-5 fs-1"> <span className='text-secondary'>Who we are </span> our Story and Mission</div>
-                    <div className="row mt-5 about-us-content px-5" style={{ letterSpacing: '1px' }}>
-                        <p>Founded by three passionate IT professionals, <span className='fw-bold' style={{ color: 'rgb(237, 108, 72)', textDecoration: 'underline' }}>QUNOSIS</span> is dedicated to providing high-quality, reliable, and scalable IT services. We combine technical expertise with a client-centric approach to deliver solutions that drive real business value.</p>
+                <div className="main-container py-5 text-center">
+                    <div className='container'>
+                        <div className="text-secondary">ABOUT US</div>
+                        <div className="mt-5 fs-1"> <span className='text-secondary'>Who we are </span> our Story and Mission</div>
+                        <div className="row mt-5 about-us-content px-5" style={{ letterSpacing: '1px' }}>
+                            <p>Founded by three passionate IT professionals, <span className='fw-bold' style={{ color: 'rgb(89, 117, 240)', textDecoration: 'underline' }}>QUNOSIS</span> is dedicated to providing high-quality, reliable, and scalable IT services. We combine technical expertise with a client-centric approach to deliver solutions that drive real business value.</p>
+                        </div>
                     </div>
                 </div>
 
@@ -87,46 +91,80 @@ const Index = () => {
                     <div className="service-container py-5 px-4 text-center">
                         <div className="fs-2">SERVICES</div>
                         <div className='container p-4'>
-                            <div class="row g-4">
-                                <div class="col-md-4">
+                            <div className="row g-4">
+                                <div className="col-md-4">
                                     <div className='card service-card py-5'>
-                                        <div className='fw-bolder mb-5 mb-5' style={{ color: 'rgb(102, 102, 102)' }}>Custom Software Development</div>
+                                        <div>
+                                            <img src={development} height="150" style={{
+
+                                            }} />
+                                        </div>
+                                        <div className='fw-bolder mb-5 mb-5 h4' style={{ color: 'rgb(102, 102, 102)' }}>Custom Software Development</div>
                                         <div className='text-secondary px-3'>Scalable and secure software tailored to your business processes.</div>
+                                        <a className='mt-3' href="#">Read More</a>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div className="col-md-4">
                                     <div className='card service-card py-5'>
-                                        <div className='fw-bolder mb-5 mb-5' style={{ color: 'rgb(102, 102, 102)' }}>Web & Mobile App Development</div>
+                                        <div>
+                                            <img src={webdevelopment} height="150" style={{
+                                            }} />
+                                        </div>
+                                        <div className='fw-bolder mb-5 mb-5 h4' style={{ color: 'rgb(102, 102, 102)' }}>Web & Mobile App Development</div>
                                         <div className='text-secondary px-3'>Scalable and secure software tailored to your business processes.</div>
+                                        <a className='mt-3' href="#">Read More</a>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div className="col-md-4">
                                     <div className='card service-card py-5'>
-                                        <div className='fw-bolder mb-5 mb-5' style={{ color: 'rgb(102, 102, 102)' }}>UI/UX Design</div>
+                                        <div>
+                                            <img src={uiux} height="150" style={{
+                                            }} />
+                                        </div>
+                                        <div className='fw-bolder mb-5 mb-5 h4' style={{ color: 'rgb(102, 102, 102)' }}>UI/UX Design</div>
                                         <div className='text-secondary px-3'>Scalable and secure software tailored to your business processes.</div>
+                                        <a className='mt-3' href="#">Read More</a>
+
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div className="col-md-4">
                                     <div className='card service-card py-5'>
-                                        <div className='fw-bolder mb-5 mb-5' style={{ color: 'rgb(102, 102, 102)' }}>Cloud Services</div>
+                                        <div>
+                                            <img src={cloud} height="150" style={{
+                                            }} />
+                                        </div>
+                                        <div className='fw-bolder mb-5 mb-5 h4' style={{ color: 'rgb(102, 102, 102)' }}>DevOps Services</div>
                                         <div className='text-secondary px-3'>Scalable and secure software tailored to your business processes.</div>
+                                        <a className='mt-3' href="#">Read More</a>
+
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div className="col-md-4">
                                     <div className='card service-card py-5'>
-                                        <div className='fw-bolder mb-5 mb-5' style={{ color: 'rgb(102, 102, 102)' }}>E-commerce Solutions</div>
+                                        <div>
+                                            <img src={ecomm} height="150" style={{
+                                            }} />
+                                        </div>
+                                        <div className='fw-bolder mb-5 mb-5 h4' style={{ color: 'rgb(102, 102, 102)' }}>E-commerce Solutions</div>
                                         <div className='text-secondary px-3'>Scalable and secure software tailored to your business processes.</div>
+                                        <a className='mt-3' href="#">Read More</a>
+
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div className="col-md-4">
                                     <div className='card service-card py-5'>
-                                        <div className='fw-bolder mb-5 mb-5' style={{ color: 'rgb(102, 102, 102)' }}>IT Consulting & Support</div>
+                                        <div>
+                                            <img src={support} height="150" style={{
+                                            }} />
+                                        </div>
+                                        <div className='fw-bolder mb-5 mb-5 h4' style={{ color: 'rgb(102, 102, 102)' }}>IT Consulting & Support</div>
                                         <div className='text-secondary px-3'>Scalable and secure software tailored to your business processes.</div>
+                                        <a className='mt-3' href="#">Read More</a>
                                     </div>
                                 </div>
                             </div>
                             <div className='mt-5'>
-                                <div className='btn btn-light btn-service w-auto px-5 py-2'>
+                                <div className='btn btn-primary w-auto px-5 py-2'>
                                     Go to Services
                                 </div>
                             </div>
@@ -135,7 +173,7 @@ const Index = () => {
                 </div>
                 <div className='team'>
                     <div className='container main-container pt-5 text-center'>
-                        <p className='fs-5' style={{ color: 'rgb(237, 108, 72)' }}>MEET OUR TEAM</p>
+                        <p className='fs-5 fw-bold' style={{ color: 'rgb(89, 117, 240)' }}>MEET OUR TEAM</p>
                         <p className='fs-1'>Experts Behind Your Success</p>
                         <p className='fw-lighter' style={{ fontSize: '18px', letterSpacing: '1px' }}>Our team is composed of experienced professionals who are passionate about driving digital transformation and innovation. Each member brings unique skills and expertise, working together to deliver exceptional results for our clients</p>
                     </div>
@@ -143,15 +181,16 @@ const Index = () => {
                         <div className="scroll-track">
                             <div className="card team-card d-flex align-items-center justify-content-between">
                                 <div>
-                                    <img src={keval} width="200" height="200"  style={{
+                                    <img src={keval} width="200" height="200" style={{
                                         height: "200px",
                                         width: "200px",
-                                        objectFit: "cover"
+                                        objectFit: "cover",
+                                        borderRadius: "50%"
                                     }} />
                                 </div>
                                 <div className='ms-5'>
-                                    <h5 className="fw-bolder">Keval Chauhan</h5>
-                                    <p style={{ color: 'rgb(237, 108, 72)' }}>Web Developer</p>
+                                    <h5 className="fw-bolder" style={{ color: 'rgb(89, 117, 240)' }}>Keval Chauhan</h5>
+                                    <p>Web Developer</p>
                                     <p className='fw-lighter'>Lorem ipsum dolor sit amet consectetur,
                                         adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                                         Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -160,15 +199,16 @@ const Index = () => {
                             </div>
                             <div className="card team-card d-flex align-items-center justify-content-between">
                                 <div>
-                                    <img src={dishant} width="200" height="200"  style={{
+                                    <img src={dishant} width="200" height="200" style={{
                                         height: "200px",
                                         width: "200px",
-                                        objectFit: "cover"
+                                        objectFit: "cover",
+                                        borderRadius: "50%"
                                     }} />
                                 </div>
                                 <div className='ms-5'>
-                                    <h5 className="fw-bolder">Dishant Dobariya</h5>
-                                    <p style={{ color: 'rgb(237, 108, 72)' }}>DevOps Engineer</p>
+                                    <h5 className="fw-bolder" style={{ color: 'rgb(89, 117, 240)' }}>Dishant Dobariya</h5>
+                                    <p>DevOps Engineer</p>
                                     <p className='fw-lighter'>Lorem ipsum dolor sit amet consectetur,
                                         adipisicing. Lorem ipsum dolor sit amet consectetur, adipisicing elit. consectetur,
                                         Lorem ipsum dolor
@@ -177,15 +217,16 @@ const Index = () => {
                             </div>
                             <div className="card team-card d-flex align-items-center justify-content-between">
                                 <div>
-                                    <img src={anurag} width="200" height="200"  style={{
+                                    <img src={anurag} width="200" height="200" style={{
                                         height: "200px",
                                         width: "200px",
-                                        objectFit: "cover"
+                                        objectFit: "cover",
+                                        borderRadius: "50%"
                                     }} />
                                 </div>
                                 <div className='ms-5'>
-                                    <h5 className="fw-bolder">Anurag Garsondiya</h5>
-                                    <p style={{ color: 'rgb(237, 108, 72)' }}>Web Developer</p>
+                                    <h5 className="fw-bolder" style={{ color: 'rgb(89, 117, 240)' }}>Anurag Garsondiya</h5>
+                                    <p>Web Developer</p>
                                     <p className='fw-lighter'>Lorem ipsum dolor sit amet consectetur,
                                         adipisicing elit. Lorem ipsum dolor dipisicing elit.
                                         Lorem ipsum dolor , adipisicing elit.
@@ -194,15 +235,16 @@ const Index = () => {
                             </div>
                             <div className="card team-card d-flex align-items-center justify-content-between">
                                 <div>
-                                    <img src={keval} width="200" height="200"  style={{
+                                    <img src={keval} width="200" height="200" style={{
                                         height: "200px",
                                         width: "200px",
-                                        objectFit: "cover"
+                                        objectFit: "cover",
+                                        borderRadius: "50%"
                                     }} />
                                 </div>
                                 <div className='ms-5'>
-                                    <h5 className="fw-bolder">Keval Chauhan</h5>
-                                    <p style={{ color: 'rgb(237, 108, 72)' }}>Web Developer</p>
+                                    <h5 className="fw-bolder" style={{ color: 'rgb(89, 117, 240)' }}>Keval Chauhan</h5>
+                                    <p>Web Developer</p>
                                     <p className='fw-lighter'>Lorem ipsum dolor sit amet consectetur,
                                         adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                                         Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -211,15 +253,16 @@ const Index = () => {
                             </div>
                             <div className="card team-card d-flex align-items-center justify-content-between">
                                 <div>
-                                    <img src={dishant} width="200" height="200"  style={{
+                                    <img src={dishant} width="200" height="200" style={{
                                         height: "200px",
                                         width: "200px",
-                                        objectFit: "cover"
+                                        objectFit: "cover",
+                                        borderRadius: "50%"
                                     }} />
                                 </div>
                                 <div className='ms-5'>
-                                    <h5 className="fw-bolder">Dishant Dobariya</h5>
-                                    <p style={{ color: 'rgb(237, 108, 72)' }}>Cloud Engineer</p>
+                                    <h5 className="fw-bolder" style={{ color: 'rgb(89, 117, 240)' }}>Dishant Dobariya</h5>
+                                    <p>Cloud Engineer</p>
                                     <p className='fw-lighter'>Lorem ipsum dolor sit amet consectetur,
                                         adipisicing. Lorem ipsum dolor sit amet consectetur, adipisicing elit. consectetur,
                                         Lorem ipsum dolor
@@ -228,15 +271,16 @@ const Index = () => {
                             </div>
                             <div className="card team-card d-flex align-items-center justify-content-between">
                                 <div>
-                                    <img src={anurag} width="200" height="200"  style={{
+                                    <img src={anurag} width="200" height="200" style={{
                                         height: "200px",
                                         width: "200px",
-                                        objectFit: "cover"
+                                        objectFit: "cover",
+                                        borderRadius: "50%"
                                     }} />
                                 </div>
                                 <div className='ms-5'>
-                                    <h5 className="fw-bolder">Anurag Garsondiya</h5>
-                                    <p style={{ color: 'rgb(237, 108, 72)' }}>Web Developer</p>
+                                    <h5 className="fw-bolder" style={{ color: 'rgb(89, 117, 240)' }}>Anurag Garsondiya</h5>
+                                    <p>Web Developer</p>
                                     <p className='fw-lighter'>Lorem ipsum dolor sit amet consectetur,
                                         adipisicing elit. Lorem ipsum dolor dipisicing elit.
                                         Lorem ipsum dolor , adipisicing elit.
@@ -302,18 +346,19 @@ const Index = () => {
                             <p className=' text-secondary'><FaSquareXTwitter fontSize="1.1em" className='me-2' />Instagram</p>
                         </div>
                         <div>
-                            <p className='fw-medium' style={{ color: 'rgb(237, 108, 72)', textDecoration: 'underline' }}>Join Our Commnity</p>
+                            <p className='fw-medium' style={{ color: 'rgb(89, 117, 240)', textDecoration: 'underline' }}>Join Our Commnity</p>
                             <p className='fw-light text-secondary'>Share ideas, collaborate, </p>
                             <p className='fw-light text-secondary'>and grow together in a supportive and engaging environment.</p>
                         </div>
                     </div>
                     <div className='container bordered border-bottom'></div>
-                    <div className='py-5 text-center' style={{ color: 'rgb(237, 108, 72)' }}>© 2025 Qunosis by Keval. Powered by Qunosis. All rights reserved.</div>
+                    <div className='py-5 text-center' style={{ color: 'rgb(89, 117, 240)' }}>© 2025 Qunosis by Keval. Powered by Qunosis. All rights reserved.</div>
                 </div>
             </div >
 
         </>
     );
 };
+
 
 export default Index;
