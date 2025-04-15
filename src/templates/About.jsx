@@ -1,6 +1,10 @@
 import React from 'react';
 import HeaderNavBar from './Nav';
 import about from '../assets/aboutUs.jpg';
+import mission from '../assets/mission.jpg';
+import vision from '../assets/vision.jpg';
+
+
 import Footer from './Footer';
 
 const About = () => {
@@ -93,8 +97,56 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+                <div className='row'>
+                    <div className='col-12 col-md-4 about-us-col'>
+                        <div style={{ position: 'sticky', top: '100px' }}>
+                            <p className='text-secondary h3' style={{ fontSize: '100px', borderBottom: '1px solid black' }}>
+                                Mission
+                            </p>
+                        </div>
+                    </div>
+                    <div className='col-12 col-md-7' style={{ borderLeft: '1px solid black' }}>
+                        <div className='ms-5'>
+                            <div>
+                                <img src={mission} height="550" width="100%" style={{
+                                }} />
+                            </div>
+                            <p className=''>
+                                Our mission is to deliver high-quality, customized IT solutions that solve real-world problems and exceed client expectations. We are committed to innovation, integrity, and excellence, working hand-in-hand with our clients to build future-ready digital ecosystems and blend analytical thinking with visionary creativity to engineer meaningful digital solutions. We aim to turn complexity into clarity, innovation into impact, and ideas into intelligent systems that evolve with our clients.
+                            </p>
+                            <p className='text-secondary' >
+                                We craft digital solutions with soul—balancing code with creativity, logic with empathy, and speed with sustainability. Every line we write is a step toward smarter, kinder technology."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div className='row'>
+                    <div className='col-12 col-md-4 about-us-col'>
+                        <div style={{ position: 'sticky', top: '100px' }}>
+                            <p className='text-secondary h3' style={{ fontSize: '100px', borderBottom: '1px solid black' }}>
+                                Vision
+                            </p>
+                        </div>
+                    </div>
+                    <div className='col-12 col-md-7' style={{ borderLeft: '1px solid black' }}>
+                        <div className='ms-5'>
+                            <div>
+                                <img src={vision} height="350" width="100%" style={{
+                                }} />
+                            </div>
+                            <p className=''>
+                            To become a trusted global technology partner, empowering businesses through innovative, reliable, and scalable digital solutions that drive growth, efficiency, and transformation.                            </p>
+                            <p className='text-secondary'>
+                            To redefine how technology connects people, businesses, and ideas—creating digital experiences that feel human, think smart, and grow with time.
+                            </p>
+                            <p className='text-secondary'>
+                            To shape a smarter digital world where every solution is crafted with logic, led by vision, and built to empower the future.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            < Footer/>            
+            < Footer />
         </>
     );
 };
