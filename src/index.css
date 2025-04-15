@@ -79,5 +79,5 @@ body{font-family:  "Poppins", "Poppins Placeholder", sans-serif; top: 0 !importa
 .btn-service{border-radius: 0px !important; color: rgb(89, 117, 240) !important;}
 .btn-service:hover{background-color: rgb(255, 255, 255) !important; color: rgb(89, 117, 240) !important; border-color: rgb(255, 255, 255) !important;}
 /* .industries{background-color: rgb(198, 198, 198);} */
-
+.about-us-col{padding-right: 0px !important}
 .about{background-color: rgb(102, 102, 102);}

@@ -95,11 +95,9 @@ const Index = () => {
                                 <div className="col-md-4">
                                     <div className='card service-card py-5'>
                                         <div>
-                                            <img src={development} height="150" style={{
-
-                                            }} />
+                                            <img src={development} height="150" style={{}} />
                                         </div>
-                                        <div className='fw-bolder mb-5 mb-5 h4' style={{ color: 'rgb(102, 102, 102)' }}>Custom Software Development</div>
+                                        <div className='fw-bolder mb-5 mb-5 h4' style={{ color: 'rgb(102, 102, 102)'}}>Custom Software Development</div>
                                         <div className='text-secondary px-3'>Scalable and secure software tailored to your business processes.</div>
                                         <a className='mt-3' href="#">Read More</a>
                                     </div>
