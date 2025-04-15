@@ -37,7 +37,7 @@ const HeaderNavBar = () => {
                     <Navbar.Brand href="#home">Qunosis</Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="d-flex align-items-center justify-content-between">
-                        <Nav.Link href="about">About</Nav.Link>
+                        <Nav.Link href="#about">About</Nav.Link>
                         <Nav.Link href="#services">Services</Nav.Link>
                         <Nav.Link href="#why-us">Why Us?</Nav.Link>
                         <Nav.Link href="#story">Story</Nav.Link>
