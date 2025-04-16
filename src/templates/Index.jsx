@@ -129,42 +129,42 @@ const Index = () => {
                                     </a>
                                 </div>
                                 <div className="col-md-4">
-                                <a href="/#services" style={{ textDecoration: 'none', color: 'inherit' }}>
+                                    <a href="/#services" style={{ textDecoration: 'none', color: 'inherit' }}>
 
-                                    <div className='card service-card py-5'>
-                                        <div>
-                                            <img src={cloud} height="150" style={{
-                                            }} />
+                                        <div className='card service-card py-5'>
+                                            <div>
+                                                <img src={cloud} height="150" style={{
+                                                }} />
+                                            </div>
+                                            <div className='fw-bolder mb-5 mb-5 h4' style={{ color: 'rgb(102, 102, 102)' }}>DevOps Services</div>
+                                            <div className='text-secondary px-3'>Scalable and secure software tailored to your business processes.</div>
+
                                         </div>
-                                        <div className='fw-bolder mb-5 mb-5 h4' style={{ color: 'rgb(102, 102, 102)' }}>DevOps Services</div>
-                                        <div className='text-secondary px-3'>Scalable and secure software tailored to your business processes.</div>
-
-                                    </div>
                                     </a>
                                 </div>
                                 <div className="col-md-4">
-                                <a href="/#services" style={{ textDecoration: 'none', color: 'inherit' }}>
-                                    <div className='card service-card py-5'>
-                                        <div>
-                                            <img src={ecomm} height="150" style={{
-                                            }} />
-                                        </div>
-                                        <div className='fw-bolder mb-5 mb-5 h4' style={{ color: 'rgb(102, 102, 102)' }}>E-commerce Solutions</div>
-                                        <div className='text-secondary px-3'>Scalable and secure software tailored to your business processes.</div>
+                                    <a href="/#services" style={{ textDecoration: 'none', color: 'inherit' }}>
+                                        <div className='card service-card py-5'>
+                                            <div>
+                                                <img src={ecomm} height="150" style={{
+                                                }} />
+                                            </div>
+                                            <div className='fw-bolder mb-5 mb-5 h4' style={{ color: 'rgb(102, 102, 102)' }}>E-commerce Solutions</div>
+                                            <div className='text-secondary px-3'>Scalable and secure software tailored to your business processes.</div>
 
-                                    </div>
+                                        </div>
                                     </a>
                                 </div>
                                 <div className="col-md-4">
-                                <a href="/#services" style={{ textDecoration: 'none', color: 'inherit' }}>
-                                    <div className='card service-card py-5'>
-                                        <div>
-                                            <img src={support} height="150" style={{
-                                            }} />
+                                    <a href="/#services" style={{ textDecoration: 'none', color: 'inherit' }}>
+                                        <div className='card service-card py-5'>
+                                            <div>
+                                                <img src={support} height="150" style={{
+                                                }} />
+                                            </div>
+                                            <div className='fw-bolder mb-5 mb-5 h4' style={{ color: 'rgb(102, 102, 102)' }}>IT Consulting & Support</div>
+                                            <div className='text-secondary px-3'>Scalable and secure software tailored to your business processes.</div>
                                         </div>
-                                        <div className='fw-bolder mb-5 mb-5 h4' style={{ color: 'rgb(102, 102, 102)' }}>IT Consulting & Support</div>
-                                        <div className='text-secondary px-3'>Scalable and secure software tailored to your business processes.</div>
-                                    </div>
                                     </a>
                                 </div>
                             </div>
@@ -194,10 +194,10 @@ const Index = () => {
                                 <div className='ms-5'>
                                     <h5 className="fw-bolder">Keval Chauhan</h5>
                                     <p>Web Developer</p>
-                                    <p className='fw-lighter'>Lorem ipsum dolor sit amet consectetur,
-                                        adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    <p className='fw-lighter'>
+                                        I design digital spaces where form meets function. For me, clean code isn’t just best practice—it's an art form. I believe that a seamless user experience starts with thoughtful engineering.
                                     </p>
+                                    <p><strong>“I build interfaces that not only look good—but think smart and scale with purpose.”</strong></p>
                                 </div>
                             </div>
                             <div className="card team-card d-flex align-items-center justify-content-between">
@@ -212,10 +212,10 @@ const Index = () => {
                                 <div className='ms-5'>
                                     <h5 className="fw-bolder">Dishant Dobariya</h5>
                                     <p>DevOps Engineer</p>
-                                    <p className='fw-lighter'>Lorem ipsum dolor sit amet consectetur,
-                                        adipisicing. Lorem ipsum dolor sit amet consectetur, adipisicing elit. consectetur,
-                                        Lorem ipsum dolor
+                                    <p className='fw-lighter'>
+                                        I engineer the invisible infrastructure that makes innovation possible. My role is to ensure systems stay fast, reliable, and ready for anything. Automation and scalability are my playground.
                                     </p>
+                                    <p><strong>“Behind every great app is a great cloud—I make sure it never rains.”</strong></p>
                                 </div>
                             </div>
                             <div className="card team-card d-flex align-items-center justify-content-between">
@@ -230,10 +230,10 @@ const Index = () => {
                                 <div className='ms-5'>
                                     <h5 className="fw-bolder">Anurag Garsondiya</h5>
                                     <p>Web Developer</p>
-                                    <p className='fw-lighter'>Lorem ipsum dolor sit amet consectetur,
-                                        adipisicing elit. Lorem ipsum dolor dipisicing elit.
-                                        Lorem ipsum dolor , adipisicing elit.
+                                    <p className='fw-lighter'>
+                                        I don't just code—I translate ideas into reality through logic and design. My mission is to shape user-centric solutions that don’t just function but leave a mark.
                                     </p>
+                                    <p><strong>“Driven by logic, powered by vision—I build digital experiences with meaning.”</strong></p>
                                 </div>
                             </div>
                             <div className="card team-card d-flex align-items-center justify-content-between">
@@ -248,10 +248,10 @@ const Index = () => {
                                 <div className='ms-5'>
                                     <h5 className="fw-bolder">Keval Chauhan</h5>
                                     <p>Web Developer</p>
-                                    <p className='fw-lighter'>Lorem ipsum dolor sit amet consectetur,
-                                        adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    <p className='fw-lighter'>
+                                        I design digital spaces where form meets function. For me, clean code isn’t just best practice—it's an art form. I believe that a seamless user experience starts with thoughtful engineering.
                                     </p>
+                                    <p><strong>“I build interfaces that not only look good—but think smart and scale with purpose.”</strong></p>
                                 </div>
                             </div>
                             <div className="card team-card d-flex align-items-center justify-content-between">
@@ -266,10 +266,10 @@ const Index = () => {
                                 <div className='ms-5'>
                                     <h5 className="fw-bolder">Dishant Dobariya</h5>
                                     <p>Cloud Engineer</p>
-                                    <p className='fw-lighter'>Lorem ipsum dolor sit amet consectetur,
-                                        adipisicing. Lorem ipsum dolor sit amet consectetur, adipisicing elit. consectetur,
-                                        Lorem ipsum dolor
+                                    <p className='fw-lighter'>
+                                        I engineer the invisible infrastructure that makes innovation possible. My role is to ensure systems stay fast, reliable, and ready for anything. Automation and scalability are my playground.
                                     </p>
+                                    <p><strong>“Behind every great app is a great cloud—I make sure it never rains.”</strong></p>
                                 </div>
                             </div>
                             <div className="card team-card d-flex align-items-center justify-content-between">
@@ -284,10 +284,10 @@ const Index = () => {
                                 <div className='ms-5'>
                                     <h5 className="fw-bolder">Anurag Garsondiya</h5>
                                     <p>Web Developer</p>
-                                    <p className='fw-lighter'>Lorem ipsum dolor sit amet consectetur,
-                                        adipisicing elit. Lorem ipsum dolor dipisicing elit.
-                                        Lorem ipsum dolor , adipisicing elit.
+                                    <p className='fw-lighter'>
+                                        I don't just code—I translate ideas into reality through logic and design. My mission is to shape user-centric solutions that don’t just function but leave a mark.
                                     </p>
+                                    <p><strong>“Driven by logic, powered by vision—I build digital experiences with meaning.”</strong></p>
                                 </div>
                             </div>
                         </div>
