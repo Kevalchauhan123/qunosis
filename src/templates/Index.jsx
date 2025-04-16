@@ -194,9 +194,9 @@ const Index = () => {
                                 <div className='ms-5'>
                                     <h5 className="fw-bolder">Keval Chauhan</h5>
                                     <p>Web Developer</p>
-                                    <p className='fw-lighter'>
+                                    {/* <p className='fw-lighter'>
                                         I design digital spaces where form meets function. For me, clean code isn’t just best practice—it's an art form. I believe that a seamless user experience starts with thoughtful engineering.
-                                    </p>
+                                    </p> */}
                                     <p><strong>“I build interfaces that not only look good—but think smart and scale with purpose.”</strong></p>
                                 </div>
                             </div>
@@ -212,9 +212,9 @@ const Index = () => {
                                 <div className='ms-5'>
                                     <h5 className="fw-bolder">Dishant Dobariya</h5>
                                     <p>DevOps Engineer</p>
-                                    <p className='fw-lighter'>
+                                    {/* <p className='fw-lighter'>
                                         I engineer the invisible infrastructure that makes innovation possible. My role is to ensure systems stay fast, reliable, and ready for anything. Automation and scalability are my playground.
-                                    </p>
+                                    </p> */}
                                     <p><strong>“Behind every great app is a great cloud—I make sure it never rains.”</strong></p>
                                 </div>
                             </div>
@@ -230,9 +230,9 @@ const Index = () => {
                                 <div className='ms-5'>
                                     <h5 className="fw-bolder">Anurag Garsondiya</h5>
                                     <p>Web Developer</p>
-                                    <p className='fw-lighter'>
+                                    {/* <p className='fw-lighter'>
                                         I don't just code—I translate ideas into reality through logic and design. My mission is to shape user-centric solutions that don’t just function but leave a mark.
-                                    </p>
+                                    </p> */}
                                     <p><strong>“Driven by logic, powered by vision—I build digital experiences with meaning.”</strong></p>
                                 </div>
                             </div>
@@ -248,9 +248,9 @@ const Index = () => {
                                 <div className='ms-5'>
                                     <h5 className="fw-bolder">Keval Chauhan</h5>
                                     <p>Web Developer</p>
-                                    <p className='fw-lighter'>
+                                    {/* <p className='fw-lighter'>
                                         I design digital spaces where form meets function. For me, clean code isn’t just best practice—it's an art form. I believe that a seamless user experience starts with thoughtful engineering.
-                                    </p>
+                                    </p> */}
                                     <p><strong>“I build interfaces that not only look good—but think smart and scale with purpose.”</strong></p>
                                 </div>
                             </div>
@@ -266,9 +266,9 @@ const Index = () => {
                                 <div className='ms-5'>
                                     <h5 className="fw-bolder">Dishant Dobariya</h5>
                                     <p>Cloud Engineer</p>
-                                    <p className='fw-lighter'>
+                                    {/* <p className='fw-lighter'>
                                         I engineer the invisible infrastructure that makes innovation possible. My role is to ensure systems stay fast, reliable, and ready for anything. Automation and scalability are my playground.
-                                    </p>
+                                    </p> */}
                                     <p><strong>“Behind every great app is a great cloud—I make sure it never rains.”</strong></p>
                                 </div>
                             </div>
@@ -284,9 +284,9 @@ const Index = () => {
                                 <div className='ms-5'>
                                     <h5 className="fw-bolder">Anurag Garsondiya</h5>
                                     <p>Web Developer</p>
-                                    <p className='fw-lighter'>
+                                    {/* <p className='fw-lighter'>
                                         I don't just code—I translate ideas into reality through logic and design. My mission is to shape user-centric solutions that don’t just function but leave a mark.
-                                    </p>
+                                    </p> */}
                                     <p><strong>“Driven by logic, powered by vision—I build digital experiences with meaning.”</strong></p>
                                 </div>
                             </div>
