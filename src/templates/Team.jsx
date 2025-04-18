@@ -2,8 +2,8 @@ import React from 'react';
 import HeaderNavBar from './Nav';
 import team from '../assets/team.png';
 import keval from '../assets/keval.jpg';
-import anurag from '../assets/anurag.jpeg';
-import dishant from '../assets/dishant.jpeg';
+import anurag from '../assets/anurag.png';
+import dishant from '../assets/dishant.png';
 import { RxExternalLink } from "react-icons/rx";
 import { AiOutlineLink } from "react-icons/ai";
 
