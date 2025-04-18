@@ -2,8 +2,8 @@ import React from 'react';
 import HeaderNavBar from './Nav';
 import team from '../assets/team.png';
 import keval from '../assets/keval.jpg';
-import anurag from '../assets/anurag.jpg';
-import dishant from '../assets/dishant.jpg';
+import anurag from '../assets/anurag1.jpg';
+import dishant from '../assets/dishant1.jpg';
 import { RxExternalLink } from "react-icons/rx";
 import { AiOutlineLink } from "react-icons/ai";
 
@@ -84,7 +84,7 @@ const Team = () => {
                     <div className='col-12 col-md-4 about-us-col'>
                         <div className='about-us-title'>
                             <div className='pe-2 my-5'>
-                                <img src={keval} height="500" width="100%" style={{
+                                <img src={keval} height="auto" width="100%" style={{
                                 }} />
                             </div>
                         </div>
@@ -121,7 +121,7 @@ const Team = () => {
                     <div className='col-12 col-md-4 about-us-col'>
                         <div className='about-us-title'>
                             <div className='pe-2 my-5'>
-                                <img src={dishant} height="500" width="100%" style={{
+                                <img src={dishant} height="auto" width="100%" style={{
                                 }} />
                             </div>
                         </div>
@@ -154,7 +154,7 @@ const Team = () => {
                     <div className='col-12 col-md-4 about-us-col'>
                         <div className='about-us-title'>
                             <div className='pe-2 my-5'>
-                                <img src={anurag} height="450" width="100%" style={{
+                                <img src={anurag} height="auto" width="100%" style={{
                                 }} />
                             </div>
                         </div>

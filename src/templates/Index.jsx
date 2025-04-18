@@ -5,7 +5,7 @@ import Accordion from 'react-bootstrap/Accordion';
 import video from '../assets/main.mp4';
 // import service from '../assets/service.mp4';
 import keval from '../assets/keval.jpg';
-import anurag from '../assets/anurag.jpg';
+import anurag from '../assets/anurag1.jpg';
 import dishant from '../assets/dishant.jpg';
 import development from '../assets/development.png';
 import webdevelopment from '../assets/web development.png';
