@@ -20,7 +20,7 @@ const Why = () => {
                     </div>
                     <div className='col-12 col-md-7' style={{ borderLeft: '1px solid black' }}>
                         <div className='ms-md-5'>
-                            <div>
+                            <div className="text-center">
                                 <img src={why} height="30%" width="80%" style={{
                                 }} />
                             </div>
