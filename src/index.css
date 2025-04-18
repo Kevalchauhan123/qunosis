@@ -88,6 +88,51 @@ body{font-family:  "Poppins", "Poppins Placeholder", sans-serif; top: 0 !importa
 .masonry .card:hover{ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;}
 .service-card:hover{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;}
 
+/* Contact Form Custom Styling */
+
+.btn-submit{color: rgb(79, 119, 184) !important; border-color: rgb(79, 119, 184) !important; border-radius: 10px;}
+.btn-submit:hover{background-color: rgb(79, 119, 184) !important; color: rgb(255, 255, 255) !important; border-color: rgb(79, 119, 184) !important;}
+
+.contact-form-container {
+  padding: 4rem 1rem;
+  min-height: 100vh;
+}
+
+.contact-card {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 0.7s ease-out;
+}
+
+.contact-card .form-control {
+  border-radius: 30px;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+}
+
+.contact-card textarea.form-control {
+  border-radius: 20px;
+}
+
+.contact-card label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
 @media only screen and (max-width: 600px) {
   .main-container{padding-right: 0rem !important; padding-left: 0rem !important; background-color: rgb(230, 230, 230) !important;}
   .title-text.h3{font-size: 20vw !important;}

@@ -53,84 +53,88 @@ const ContactForm = () => {
     return (
         <div>
             <HeaderNavBar />
-            <div className="container py-5">
-            <h1 className='title-text text-center mb-5'>Contact Us</h1>
-                {submitted && <div className="alert alert-success">Message sent successfully!</div>}
-                <div className="row justify-content-center">
-                    
-                    <div className="col-12 col-md-8">
-                        <div className="card p-5">
-                            <form onSubmit={handleSubmit} noValidate>
-                                <div className="row">
-                                    <div className="mb-3 col-md-6">
-                                        <label className="form-label">First Name</label>
-                                        <input
-                                            type="text"
-                                            name="firstName"
-                                            className={`form-control ${errors.firstName ? 'is-invalid' : ''}`}
-                                            value={formData.firstName}
-                                            onChange={handleChange}
-                                        />
-                                        {errors.firstName && <div className="invalid-feedback">{errors.firstName}</div>}
+            <div className="contact-form-container">
+                <div className="container">
+                    <h1 className="title-text text-center mb-5">Let's Connect</h1>
+                    {submitted && <div className="alert alert-success text-center">Message sent successfully!</div>}
+
+                    <div className="row justify-content-center">
+                        <div className="col-12 col-md-10 col-lg-8">
+                            <div className="card p-5 contact-card">
+                                <form onSubmit={handleSubmit} noValidate>
+                                    <div className="row">
+                                        <div className="mb-4 col-md-6">
+                                            <label>First Name</label>
+                                            <input
+                                                type="text"
+                                                name="firstName"
+                                                className={`form-control ${errors.firstName ? 'is-invalid' : ''}`}
+                                                value={formData.firstName}
+                                                onChange={handleChange}
+                                            />
+                                            {errors.firstName && <div className="invalid-feedback">{errors.firstName}</div>}
+                                        </div>
+
+                                        <div className="mb-4 col-md-6">
+                                            <label>Last Name</label>
+                                            <input
+                                                type="text"
+                                                name="lastName"
+                                                className={`form-control ${errors.lastName ? 'is-invalid' : ''}`}
+                                                value={formData.lastName}
+                                                onChange={handleChange}
+                                            />
+                                            {errors.lastName && <div className="invalid-feedback">{errors.lastName}</div>}
+                                        </div>
                                     </div>
 
-                                    <div className="mb-3 col-md-6">
-                                        <label className="form-label">Last Name</label>
+                                    <div className="mb-4">
+                                        <label>Email</label>
                                         <input
-                                            type="text"
-                                            name="lastName"
-                                            className={`form-control ${errors.lastName ? 'is-invalid' : ''}`}
-                                            value={formData.lastName}
+                                            type="email"
+                                            name="email"
+                                            className={`form-control ${errors.email ? 'is-invalid' : ''}`}
+                                            value={formData.email}
                                             onChange={handleChange}
                                         />
-                                        {errors.lastName && <div className="invalid-feedback">{errors.lastName}</div>}
+                                        {errors.email && <div className="invalid-feedback">{errors.email}</div>}
                                     </div>
-                                </div>
 
-                                <div className="mb-3">
-                                    <label className="form-label">Email</label>
-                                    <input
-                                        type="email"
-                                        name="email"
-                                        className={`form-control ${errors.email ? 'is-invalid' : ''}`}
-                                        value={formData.email}
-                                        onChange={handleChange}
-                                    />
-                                    {errors.email && <div className="invalid-feedback">{errors.email}</div>}
-                                </div>
+                                    <div className="mb-4">
+                                        <label>Phone Number</label>
+                                        <input
+                                            type="text"
+                                            name="phone"
+                                            className="form-control"
+                                            value={formData.phone}
+                                            onChange={handleChange}
+                                        />
+                                    </div>
 
-                                <div className="mb-3">
-                                    <label className="form-label">Phone Number</label>
-                                    <input
-                                        type="text"
-                                        name="phone"
-                                        className="form-control"
-                                        value={formData.phone}
-                                        onChange={handleChange}
-                                    />
-                                </div>
+                                    <div className="mb-4">
+                                        <label>Message</label>
+                                        <textarea
+                                            name="message"
+                                            rows="5"
+                                            className={`form-control ${errors.message ? 'is-invalid' : ''}`}
+                                            value={formData.message}
+                                            onChange={handleChange}
+                                        />
+                                        {errors.message && <div className="invalid-feedback">{errors.message}</div>}
+                                    </div>
 
-                                <div className="mb-3">
-                                    <label className="form-label">Message</label>
-                                    <textarea
-                                        name="message"
-                                        rows="5"
-                                        className={`form-control ${errors.message ? 'is-invalid' : ''}`}
-                                        value={formData.message}
-                                        onChange={handleChange}
-                                    />
-                                    {errors.message && <div className="invalid-feedback">{errors.message}</div>}
-                                </div>
-                                <div className="text-center">
-                                    <button type="submit" className="btn btn-primary px-5 py-2">Submit</button>
-                                </div>
-                            </form>
+                                    <div className="text-center">
+                                        <button type="submit" className="btn btn-submit">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <Footer />
         </div>
+
     );
 };
 
