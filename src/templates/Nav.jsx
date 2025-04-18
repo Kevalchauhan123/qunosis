@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { Navbar, Nav, Offcanvas, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import profileImage from '../assets/logo.png';
 
 const HeaderNavBar = () => {
   const [showOffcanvas, setShowOffcanvas] = useState(false);
@@ -23,7 +24,18 @@ const HeaderNavBar = () => {
       >
         <div className="container d-flex justify-content-between align-items-center">
           <div className='d-flex d-md-block align-items-center justify-content-between w-100'>
-            <Navbar.Brand href="/">Qunosis</Navbar.Brand>
+            <Navbar.Brand href="/" className="d-none d-lg-block">
+              <img
+                src={profileImage}
+                alt="Qunosis Solutions"
+                style={{
+                  height: '200px',
+                  width: '200px',
+                  borderRadius: '50%',
+                  objectFit: 'cover'
+                }}
+              />
+            </Navbar.Brand>
             <Button
               variant="link"
               className="d-block d-lg-none"

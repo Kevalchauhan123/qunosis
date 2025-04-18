@@ -67,10 +67,10 @@ const Index = () => {
                 </div>
                 <div className="main-container py-md-5 text-center">
                     <div className='container'>
-                        <div className="text-secondary">ABOUT US</div>
+                        <div className="title-text">ABOUT US</div>
                         <div className="mt-5 fs-1"> <span className='text-secondary'>Who we are </span> our Story and Mission</div>
                         <div className="row mt-5 about-us-content px-md-5" style={{ letterSpacing: '1px' }}>
-                            <p>Founded by three passionate IT professionals, <span className='fw-bold' style={{ color: 'rgb(89, 117, 240)', textDecoration: 'underline' }}>QUNOSIS</span> is dedicated to providing high-quality, reliable, and scalable IT services. We combine technical expertise with a client-centric approach to deliver solutions that drive real business value.</p>
+                            <p>Founded by three passionate IT professionals, <span className='fw-bold title-text' style={{ textDecoration: 'underline' }}>QUNOSIS</span> is dedicated to providing high-quality, reliable, and scalable IT services. We combine technical expertise with a client-centric approach to deliver solutions that drive real business value.</p>
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@ const Index = () => {
                         <source src={service} type="video/mp4" />
                     </video> */}
                     <div className="service-container py-5 px-4 text-center">
-                        <div className="fs-2">SERVICES</div>
+                        <div className="fs-2 title-text">SERVICES</div>
                         <div className='container p-4'>
                             <div className="row g-4">
                                 <div className="col-md-4">
@@ -173,7 +173,7 @@ const Index = () => {
                 </div>
                 <div className='team'>
                     <div className='container main-container pt-5 text-center'>
-                        <p className='fs-5 fw-bold' style={{ color: 'rgb(0, 0, 0)' }}>MEET OUR TEAM</p>
+                        <p className='fs-5 fw-bold title-text'>MEET OUR TEAM</p>
                         <p className='fs-1'>Experts Behind Your Success</p>
                         <p className='fw-lighter' style={{ fontSize: '18px', letterSpacing: '1px' }}>Our team is composed of experienced professionals who are passionate about driving digital transformation and innovation. Each member brings unique skills and expertise, working together to deliver exceptional results for our clients</p>
                     </div>
@@ -294,7 +294,7 @@ const Index = () => {
                     </div>
                 </div>
                 <div className="container py-5 text-center">
-                    <div className="text-secondary mb-5 fs-3">OUR VALUES</div>
+                    <div className="title-text mb-5 fs-3">OUR VALUES</div>
                     <Accordion defaultActiveKey="0">
                         <Accordion.Item >
                             <Accordion.Header>Client-Centricity</Accordion.Header>

@@ -1,6 +1,6 @@
 import React from 'react';
 import HeaderNavBar from './Nav';
-import why from '../assets/why.jpg';
+import why from '../assets/why.png';
 
 
 import Footer from './Footer';
@@ -13,7 +13,7 @@ const Why = () => {
                 <div className='row'>
                     <div className='col-12 col-md-4 about-us-col'>
                         <div className='about-us-title'>
-                            <p className='text-secondary h3' style={{borderBottom: '1px solid black' }}>
+                            <p className='title-text h3' style={{borderBottom: '1px solid black' }}>
                                 Why Us
                             </p>
                         </div>
@@ -27,40 +27,40 @@ const Why = () => {
                             <p className='text-dark fw-bolder'>
                                 Choosing Qunosis means partnering with a team of passionate experts dedicated to delivering innovative, reliable, and results-driven IT solutions tailored to your specific business goals                            </p>
                             <ul>
-                                <li>Expertise and Experience</li>
+                                <li className='title-text'>Expertise and Experience</li>
                             </ul>
                             <p className='text-secondary' >
                                 <ul>
                                 Our team comprises seasoned IT professionals with a proven track record in web development, full stack engineering, and cloud technologies. We stay updated with the latest industry trends and best practices to deliver cutting-edge solutions.                                </ul>
                             </p>
                             <ul>
-                                <li>Client-Centric Approach</li>
+                                <li className='title-text'>Client-Centric Approach</li>
                             </ul>
                             <p className='text-secondary' >
                                 <ul>
                                 We believe in a collaborative partnership, taking the time to understand your unique challenges and objectives. Our solutions are not off-the-shelf; they are custom-designed to drive your business forward.                                </ul>
                             </p>
                             <ul>
-                                <li>Quality and Reliability</li>
+                                <li className='title-text'>Quality and Reliability</li>
                             </ul>
                             <p className='text-secondary' >
                                 <ul>
                                 We are committed to excellence in every project we undertake. Our rigorous quality assurance processes and dedicated support ensure that you receive robust and dependable IT services.                                </ul>
                             </p>
                             <ul>
-                                <li>Innovation and Future-Forward Thinking</li>
+                                <li className='title-text'>Innovation and Future-Forward Thinking</li>
                             </ul>
                             <p className='text-secondary' ><ul>
                             We are passionate about innovation and constantly explore new technologies to provide you with future-proof solutions that give you a competitive edge in the digital landscape.                            </ul></p>
 
                             <ul>
-                                <li>Passion and Dedication</li>
+                                <li className='title-text'>Passion and Dedication</li>
                             </ul>
                             <p className='text-secondary' >
                                 <ul>
                                 We are more than just a service provider; we are a team of passionate individuals who are genuinely invested in your success. We go the extra mile to ensure your IT needs are met effectively and efficiently.                                </ul></p>
                             <ul>
-                                <li>IT Consulting & Support</li>
+                                <li className='title-text'>IT Consulting & Support</li>
                             </ul>
                             <p className='text-secondary' >
                                 <ul>
@@ -68,14 +68,14 @@ const Why = () => {
                                 </ul>
                             </p>
                             <ul>
-                                <li>Agile and Flexible Approach</li>
+                                <li className='title-text'>Agile and Flexible Approach</li>
                             </ul>
                             <p className='text-secondary' >
                                 <ul>
                                 Our agile methodologies allow us to be flexible and responsive to your evolving needs, ensuring that your project stays on track and delivers the desired outcomes.                                </ul>
                             </p>
                             <ul>
-                                <li> Cost-Effectiveness</li>
+                                <li className='title-text'> Cost-Effectiveness</li>
                             </ul>
                             <p className='text-secondary' >
                                 <ul>

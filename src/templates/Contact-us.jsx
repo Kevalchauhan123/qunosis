@@ -54,7 +54,7 @@ const ContactForm = () => {
         <div>
             <HeaderNavBar />
             <div className="container py-5">
-            <h1 className='text-center mb-5'>Contact Us</h1>
+            <h1 className='title-text text-center mb-5'>Contact Us</h1>
                 {submitted && <div className="alert alert-success">Message sent successfully!</div>}
                 <div className="row justify-content-center">
                     
