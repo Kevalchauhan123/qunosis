@@ -27,7 +27,7 @@ const Service = () => {
             <HeaderNavBar />
             <div>
                 <div className="container my-5">
-                    <div className="my-5 title-text" style={{fontSize: '80px'}}>
+                    <div className="my-5 title-text" style={{fontSize: '75px'}}>
                         Services
                     </div>
                     <div className="masonry row">
@@ -61,7 +61,7 @@ const Service = () => {
                         <div className="col-12 col-md-4 item mb-4">
                             <div className="card p-3">
                                 <SiAffinitydesigner className="title-text" fontSize="3em" />
-                                <p className="my-5 fw-bold h5">UI / UX</p>
+                                <p className="title-text my-5 fw-bold h5">UI / UX</p>
                                 <hr></hr>
                                 <p className="fw-light mt-5">We design intuitive and engaging user experiences that not only look great but also drive user satisfaction and business results. Our UI/UX process combines research, strategy, and creativity to craft interfaces that are visually compelling, easy to use, and aligned with your brand identity.</p>
                             </div>

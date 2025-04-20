@@ -2,7 +2,7 @@
 html {scroll-behavior: smooth;}
 
 .title-text{color: rgb(70, 119, 184) !important;}
-.title-text.h3{font-size: 100px !important;}
+.title-text.h3{font-size: 75px !important;}
 
 body{font-family:  "Poppins", "Poppins Placeholder", sans-serif; top: 0 !important;}
 .navbar-brand{font-size: 25px; width: 100%; color: rgb(79, 119, 184) !important;}
