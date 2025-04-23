@@ -32,35 +32,35 @@ const Team = () => {
                             <p className='text-secondary'>
                                 At Qunosis, our strength lies in our people. We are a passionate and diverse group of developers, designers, strategists, and problem-solvers who bring creativity, technical expertise, and innovation to every project we take on. Each member of our team is handpicked for their unique skills and dedication to excellence. We come from different backgrounds but share a common vision: to build impactful digital solutions that help businesses thrive.                            </p>
                             <ul>
-                                <li className="title-text">🧠 Innovators at Heart</li>
+                                <li className="title-text fw-bold">Innovators at Heart</li>
                             </ul>
                             <p className='text-secondary' >
                                 <ul>
                                     We embrace challenges and think outside the box. Whether it’s designing an intuitive user interface or engineering a complex backend system, our team thrives on pushing boundaries and delivering results that exceed expectations.                                </ul>
                             </p>
                             <ul>
-                                <li className="title-text">💻 Skilled & Experienced</li>
+                                <li className="title-text fw-bold">Skilled & Experienced</li>
                             </ul>
                             <p className='text-secondary' >
                                 <ul>
                                     From full-stack developers to UX/UI experts, cloud architects to QA analysts, our team brings years of industry experience and up-to-date knowledge of the latest technologies and trends.                                </ul>
                             </p>
                             <ul>
-                                <li className="title-text">🤝 Collaborative by Nature</li>
+                                <li className="title-text fw-bold">Collaborative by Nature</li>
                             </ul>
                             <p className='text-secondary' >
                                 <ul>
                                     We believe great ideas come from collaboration. Our culture encourages open communication, transparency, and teamwork—both within our company and with our clients. We treat every project like a partnership.                                </ul>
                             </p>
                             <ul>
-                                <li className="title-text">👾 Cloud Services</li>
+                                <li className="title-text fw-bold">Cloud Services</li>
                             </ul>
                             <p className='text-secondary' ><ul>
                                 Take your business to the cloud with our secure and reliable cloud services. We provide cloud infrastructure setup, migration, management, and optimization, giving you the flexibility to scale quickly while reducing costs. Our solutions help businesses streamline operations, improve collaboration, and ensure business continuity.
                             </ul></p>
 
                             <ul>
-                                <li className="title-text">🚀 Driven by Purpose</li>
+                                <li className="title-text fw-bold">Driven by Purpose</li>
                             </ul>
                             <p className='text-secondary' >
                                 <ul>
