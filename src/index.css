@@ -1,7 +1,7 @@
 
 html {scroll-behavior: smooth;}
 
-.title-text{color: rgb(70, 119, 184) !important;}
+.title-text{color: #4f77b8 !important;}
 .title-text.h3{font-size: 75px !important;}
 
 body{font-family:  "Poppins", "Poppins Placeholder", sans-serif; top: 0 !important;}
@@ -72,7 +72,62 @@ body{font-family:  "Poppins", "Poppins Placeholder", sans-serif; top: 0 !importa
 .accordion-button { border: none; border-top: 1px solid black !important; border-radius: 0 !important; }
 .accordion-body{font-size: 22px !important; color: rgb(125, 125, 125)}
 
-.footer{background-color: rgb(0, 0, 0); padding-top: 13rem !important;}
+/* .footer{background-color: rgb(0, 0, 0); padding-top: 13rem !important;} */
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.footer-title {
+  color: #4f77b8;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.footer-title::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 40px;
+  height: 2px;
+  background-color: #4f77b8;
+}
+
+.footer a {
+  color: #b4b6bb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #ffffff;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #ffffff;
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: translateY(-3px);
+  color: #4f77b8;
+}
+
+.newsletter-form .form-control {
+  border-radius: 0;
+  border: none;
+}
+
+.newsletter-form .btn {
+  border-radius: 0;
+}
+
+.btn.btn-footer{background-color: #4f77b8;}
+
 .icons p:hover{ color: rgb(79, 119, 184) !important;}
 .talk{background-color: rgb(230, 230, 230) !important; position: absolute; top: 170px; border-radius: 20px !important;}
 .talk .form-control{border-radius: 50px !important; height: 90px !important; font-size: 20px !important; padding-left: 3rem;}

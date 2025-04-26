@@ -1,32 +1,56 @@
-
-import { FaInstagram } from "react-icons/fa";
-import { CiLinkedin } from "react-icons/ci";
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
-    return (
-        <>
-            <div className="footer">
-                <div className='container text-light p-md-5'>
-                    <h1>Our team of experts is ready to discuss your needs and tailor a solution that works for you.</h1>
-                </div>
-                <div className='container d-md-flex align-items-center justify-content-between'>
-                    <div className='icons text-light'>
-                        <p className='text-secondary social-icon'><CiLinkedin fontSize="1.3em" className='me-2' />LinkedIn</p>
-                        <p className='text-secondary social-icon'><FaInstagram fontSize="1.2em" className='me-2' />Instagram</p>
-                        <p className='text-secondary social-icon'><FaSquareXTwitter fontSize="1.1em" className='me-2' />Twitter</p>
-                    </div>
-                    <div>
-                        <p className='title-text fw-medium' style={{ textDecoration: 'underline' }}>Join Our Commnity</p>
-                        <p className='fw-light title-text'>Share ideas, collaborate, </p>
-                        <p className='fw-light title-text'>and grow together in a supportive and engaging environment.</p>
-                    </div>
-                </div>
-                <div className='container bordered border-bottom'></div>
-                <div className='title-text py-5 text-center'>© 2025 Qunosis by Keval. Powered by Qunosis. All rights reserved.</div>
+  return (
+    <footer className="footer mt-5">
+      <div className="container py-5">
+        <div className="row">
+          {/* Company Info */}
+          <div className="col-md-5 mb-4">
+            <h5 className="footer-title">About Qunosis</h5>
+            <p>
+              Our team of experts is ready to discuss your needs and tailor a solution that works for you.
+            </p>
+            <div className="social-icons">
+              <a href="#" aria-label="LinkedIn"><FaLinkedin /></a>
+              <a href="#" aria-label="Instagram"><FaInstagram /></a>
+              <a href="#" aria-label="Twitter"><FaTwitter /></a>
             </div>
-        </>
-    )
-}
+          </div>
+
+          {/* Quick Links */}
+          <div className="col-md-3 mb-4">
+            <h5 className="footer-title">Quick Links</h5>
+            <ul className="list-unstyled">
+              <li><a href="#">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#team">Team</a></li>
+              <li><a href="#contact-us">Contact</a></li>
+            </ul>
+          </div>
+
+          {/* Newsletter */}
+          <div className="col-md-4 mb-4">
+            <h5 className="footer-title">Join Our Community</h5>
+            <p>Share ideas, collaborate, and grow together in a supportive and engaging environment.</p>
+            <form className="newsletter-form">
+              <div className="input-group">
+                <input type="email" className="form-control" placeholder="Enter your email" />
+                <button className="btn btn-footer" type="submit">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <hr className="border-top border-secondary" />
+
+        <div className="text-center py-3">
+          © 2025 Qunosis by Qunosis Solutions. Powered by Qunosis. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  );
+};
 
 export default Footer;
