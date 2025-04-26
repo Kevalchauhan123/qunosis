@@ -299,25 +299,33 @@ const Index = () => {
                         <Accordion.Item >
                             <Accordion.Header>Client-Centricity</Accordion.Header>
                             <Accordion.Body>
-                                At Qunosis Solutions, our clients are our compass. We take the time to deeply understand your business goals, challenges, and vision to deliver tailored solutions that make a real difference. Your success is our mission, and every project reflects our dedication to adding genuine value. We believe in long-term partnerships built on trust, transparency, and consistent delivery. By staying aligned with your needs at every step, we ensure outcomes that are impactful and sustainable.
+                                <div class="mx-4" style={{ textAlign: "justify" }}>
+                                    At Qunosis Solutions, our clients are our compass. We take the time to deeply understand your business goals, challenges, and vision to deliver tailored solutions that make a real difference. Your success is our mission, and every project reflects our dedication to adding genuine value. We believe in long-term partnerships built on trust, transparency, and consistent delivery. By staying aligned with your needs at every step, we ensure outcomes that are impactful and sustainable.
+                                </div>
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="1">
                             <Accordion.Header>Innovation</Accordion.Header>
                             <Accordion.Body>
-                                Innovation is at the core of everything we do. We don’t just follow trends, we explore, experiment, and lead with future-forward thinking. Our team thrives on solving complex problems with creative, out-of-the-box solutions that redefine what’s possible. Whether it's adopting emerging technologies or improving existing systems, we continuously evolve to stay ahead. We’re driven by curiosity and powered by the belief that smart innovation creates lasting impact.
+                                <div class="mx-4" style={{ textAlign: "justify" }}>
+                                    Innovation is at the core of everything we do. We don’t just follow trends, we explore, experiment, and lead with future-forward thinking. Our team thrives on solving complex problems with creative, out-of-the-box solutions that redefine what’s possible. Whether it's adopting emerging technologies or improving existing systems, we continuously evolve to stay ahead. We’re driven by curiosity and powered by the belief that smart innovation creates lasting impact.
+                                </div>
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="3">
                             <Accordion.Header>Quality</Accordion.Header>
                             <Accordion.Body>
-                                We believe quality is not just a goal, it’s a commitment. From concept to code, every stage of our process is built on precision, performance, and attention to detail. Our solutions are tested, refined, and engineered to meet the highest standards, ensuring reliability, scalability, and security. We don’t cut corners, we craft with care. Because when our clients trust us with their technology, we deliver nothing short of excellence.
+                                <div class="mx-4" style={{ textAlign: "justify" }}>
+                                    We believe quality is not just a goal, it’s a commitment. From concept to code, every stage of our process is built on precision, performance, and attention to detail. Our solutions are tested, refined, and engineered to meet the highest standards, ensuring reliability, scalability, and security. We don’t cut corners, we craft with care. Because when our clients trust us with their technology, we deliver nothing short of excellence.
+                                </div>
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="4">
                             <Accordion.Header>Colobration</Accordion.Header>
                             <Accordion.Body>
-                                Success is a team effort and we see our clients as key members of that team. We foster open communication, mutual respect, and a shared vision to co-create solutions that truly work. Our collaborative approach means we listen actively, respond quickly, and stay connected throughout the journey. By combining your domain expertise with our technical know-how, we bring ideas to life and build relationships that grow with every project.
+                                <div class="mx-4" style={{ textAlign: "justify" }}>
+                                    Success is a team effort and we see our clients as key members of that team. We foster open communication, mutual respect, and a shared vision to co-create solutions that truly work. Our collaborative approach means we listen actively, respond quickly, and stay connected throughout the journey. By combining your domain expertise with our technical know-how, we bring ideas to life and build relationships that grow with every project.
+                                </div>
                             </Accordion.Body>
                         </Accordion.Item>
                     </Accordion>
