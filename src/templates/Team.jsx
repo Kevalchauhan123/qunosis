@@ -94,7 +94,7 @@ const Team = () => {
                             <ul>
                                 <li style={{ color: ' rgb(79, 119, 184)', fontSize: '30px' }}>Keval Chauhan</li>
                                 <div>
-                                    <a style={{ color: ' rgb(255, 0, 0)' }} href="mailto::keval@qunosis.com">keval@qunosis.com<RxExternalLink fontSize="1em" className='ms-2' /></a>
+                                    <a style={{ color: ' rgb(255, 0, 0)' }} href="mailto:keval@qunosis.com">keval@qunosis.com<RxExternalLink fontSize="1em" className='ms-2' /></a>
                                 </div>
                                 <a style={{ color: ' rgb(255, 0, 0)' }} href="www.kevalchauhan.com">www.kevalchauhan.com<AiOutlineLink fontSize="1.2em" className='ms-2' /></a>
                             </ul>
