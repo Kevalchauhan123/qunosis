@@ -94,7 +94,7 @@ const Team = () => {
                             <ul>
                                 <li style={{ color: ' rgb(79, 119, 184)', fontSize: '30px' }}>Keval Chauhan</li>
                                 <div>
-                                    <a style={{ color: ' rgb(255, 0, 0)' }} href="mailto::mail@kevalchauhan.com">mail@kevalchauhan.com<RxExternalLink fontSize="1em" className='ms-2' /></a>
+                                    <a style={{ color: ' rgb(255, 0, 0)' }} href="mailto::keval@qunosis.com">keval@qunosis.com<RxExternalLink fontSize="1em" className='ms-2' /></a>
                                 </div>
                                 <a style={{ color: ' rgb(255, 0, 0)' }} href="www.kevalchauhan.com">www.kevalchauhan.com<AiOutlineLink fontSize="1.2em" className='ms-2' /></a>
                             </ul>
@@ -130,7 +130,7 @@ const Team = () => {
                         <div className='ms-md-5 my-md-5'>
                             <ul>
                                 <li style={{ color: ' rgb(79, 119, 184)', fontSize: '30px' }}>Dishant Dobariya</li>
-                                <a style={{ color: ' rgb(255, 0, 0)' }} href="mailto:dobariyadishant@gmail.com">dobariyadishant@gmail.com<RxExternalLink fontSize="1em" className='ms-2' /></a>
+                                <a style={{ color: ' rgb(255, 0, 0)' }} href="mailto:dishant@qunosis.com">dishant@qunosis.com<RxExternalLink fontSize="1em" className='ms-2' /></a>
                             </ul>
                             <p>
                                 <ul>
@@ -163,7 +163,7 @@ const Team = () => {
                         <div className='ms-md-5 my-md-5'>
                             <ul>
                                 <li style={{ color: ' rgb(79, 119, 184)', fontSize: '30px' }}>Anurag Garsondiya</li>
-                                <a style={{ color: ' rgb(255, 0, 0)' }} href="mailto:anuraggarsondiya1904@gmail.com">anuraggarsondiya1904@gmail.com<RxExternalLink fontSize="1em" className='ms-2' /></a>
+                                <a style={{ color: ' rgb(255, 0, 0)' }} href="mailto:anurag@qunosis.com">anurag@qunosis.com<RxExternalLink fontSize="1em" className='ms-2' /></a>
 
                             </ul>
                             <p>
