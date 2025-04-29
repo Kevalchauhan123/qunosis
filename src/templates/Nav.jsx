@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { Navbar, Nav, Offcanvas, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import profileImage from '../assets/logo.png';
+import profileImage from '../assets/QUNOSIS.png';
 
 const HeaderNavBar = () => {
   const [showOffcanvas, setShowOffcanvas] = useState(false);
